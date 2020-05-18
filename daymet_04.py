@@ -12,6 +12,7 @@ Created on Sun May 17 19:57:34 2020
 # Define some global variables
 URL = 'https://daymet.ornl.gov/single-pixel/api/data'
 SKIPROWS = 7   # Number of rows to skip at the top of the response
+DATA_CITATION = 'Thornton; P.E.; M.M. Thornton; B.W. Mayer; Y. Wei; R. Devarakonda; R.S. Vose; and R.B. Cook. 2016. Daymet: Daily Surface Weather Data on a 1-km Grid for North America; Version 3. ORNL DAAC; Oak Ridge; Tennessee; USA. http://dx.doi.org/10.3334/ORNLDAAC/1328'
 import io
 import requests
 import pandas
