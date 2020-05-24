@@ -103,7 +103,7 @@ def get_date_range():
 
     iday = 0
     while (iday == 0):
-        day_resp = input('Enter the day of month (between 1 and ' + str(month_lengths[imonth-1]) + ': ')
+        day_resp = input('Enter the day of month (between 1 and ' + str(month_lengths[imonth-1]) + '): ')
         iday_resp = int(day_resp)
         if (iday_resp >= 1 and iday_resp <= month_lengths[imonth-1]):
             iday = iday_resp
