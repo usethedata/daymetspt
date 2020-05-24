@@ -40,7 +40,8 @@ def get_weather_data(loc,daterange):
     #end: get_weather_data()
     
 def plot_weather_data(df):
-    print('&&&&& TODO: plot_weather_data still needs to be defined')plt.
+    # Reference: https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.html#module-matplotlib.pyplot
+    print('&&&&& TODO: plot_weather_data still needs to be defined')
     
     plt.plot('year','tmin (deg c)', data=df, marker='2', ms=3, mfc='blue', ls='')
     plt.plot('year','tmax (deg c)', data=df, marker='1', ms=3, mfc='red', ls='')
