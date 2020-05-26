@@ -43,7 +43,8 @@ def get_data(loc):
     # call the SPT to get the data
     response = requests.get(URL, params)
     if response.status_code != 200:
-        raise Error('Call to Single Pixel Tool failed, status='+response.status_code)
+        print('Call to Single Pixel Tool failed, status='+str(response.status_code))
+        exit(1)
     
     print('     debug: SPT data at lat=%3.3f and lon=%3.3f retrieved' % (loc[0],loc[1]) )
     
